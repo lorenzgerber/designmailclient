@@ -25,8 +25,8 @@ public class MailList extends AppCompatActivity {
         mRecyclerView.setLayoutManager(mLayoutManager);
 
         // specify an adapter (see also next example)
-        MailList mails = new MailList();
-        mAdapter = new MyAdapter(mails);
+        MailFolder mails = new MailFolder();
+        mAdapter = new MyAdapter(mails.getMails());
         mRecyclerView.setAdapter(mAdapter);
 
     }

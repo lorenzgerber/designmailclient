@@ -14,7 +14,7 @@ public class MailFolder {
 
     private List<MailMessage> mMails;
 
-    private MailFolder(Context context){
+    public MailFolder(){
         mMails = new ArrayList<>();
 
         for (int i = 0; i < 100; i++) {
