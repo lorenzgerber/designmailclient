@@ -20,7 +20,7 @@ public class MailMessage {
         mId = UUID.randomUUID();
         mName = "Hans Muster";
         mTopic = "Your recent inquiry";
-        mFirstLine = "Dear Mr. Gerner, your...";
+        mFirstLine = "Dear Mr. Gerber, your...";
         DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
         mDate = new Date();
     }
